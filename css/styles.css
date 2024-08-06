@@ -57,10 +57,12 @@ button{
 
 .header-cont {
     display: flex;
-}
+    align-items: center;
+    }
 .nav {
     display: flex;
 }
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -70,13 +72,18 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-h {
     color: #2e2f42;
 }
 
-.menu {}
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-right:  332px;
+}
 
 .menu-item {}
 
@@ -86,6 +93,9 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,.menu-link:focus{
@@ -94,7 +104,10 @@ button{
 .appeal{
     font-style: normal
 }
-.adr {}
+.adr {
+    display: flex;
+    gap: 40px;
+}
 
 .adr-iteam {}
 
@@ -105,6 +118,9 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .adr-comm:hover,.adr-comm:focus{
     color: #404bbf;
@@ -115,6 +131,8 @@ button{
 /* #region  hero*/
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title{
@@ -143,11 +161,20 @@ button{
 /* #endregion hero */
 
 /* #region  advantag*/
-.advantag {}
+.advantag {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
-.menu-adv {}
+.menu-adv {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
 
-.adv-list {}
+.adv-list {
+    width: calc((100%-24px*3)/4);
+}
 
 .adv-title {
     font-weight: 500;
@@ -169,7 +196,11 @@ button{
 /* #region  team*/
 .team{
     background-color: #f4f4fd;
+    padding-top: 108px;
+    padding-bottom: 132px;
+    margin-bottom: 108px;
 }
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -178,12 +209,23 @@ button{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.menu-team {}
+.menu-team {
+    display: flex;
+    gap: 24px;
+}
 
 .team-list {
     background-color: #fff;
+    width: calc((100%-24px*3)/4);
+}
+
+.team-dan {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 8px;
 }
 
 .team-name {
@@ -206,7 +248,10 @@ button{
 /* #endregion  team*/
 
 /* #region porfolio */
-.set {}
+.set {
+    margin-bottom: 120px;
+    
+}
 
 .set-title {
     font-weight: 700;
@@ -216,17 +261,33 @@ button{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.menu-set {}
+.menu-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
 
-.set-list {}
+.set-list {
+    width: calc((100%-24px*2)/3);
+}
 
+.set-dan {
+    gap: 8px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .set-product {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
@@ -235,6 +296,7 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
 /* #endregion  porfolio*/
@@ -242,6 +304,8 @@ button{
 /* #region footer */
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo {}
