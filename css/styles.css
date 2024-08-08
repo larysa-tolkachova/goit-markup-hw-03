@@ -64,7 +64,7 @@ button{
 .nav {
     display: flex;
     align-items: center; 
-    
+
 }
 
 
@@ -86,7 +86,7 @@ button{
 .menu {
     display: flex;
     gap: 40px;
-    margin-right:  332px;
+    margin-right: 332px;
 }
 
 .menu-item {}
