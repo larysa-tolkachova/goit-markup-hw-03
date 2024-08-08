@@ -61,12 +61,12 @@ button{
     display: flex;
     align-items: center;
     }
-.nav {
+
+    .nav {
     display: flex;
     align-items: center; 
 
 }
-
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -89,8 +89,6 @@ button{
     margin-right: 332px;
     
 }
-
-.menu-item {}
 
 .menu-link {
     font-weight: 500;
@@ -224,8 +222,7 @@ button{
 }
 
 .team .container {
-    padding: 32px 0;
-    
+        
 }
 
 .team-title {
@@ -350,12 +347,13 @@ img {
 
 .logo {
     display: inline-block;
-    margin-bottom: 16px;
+    
 }
 
 .logo-f {
     color: #f4f4fd;
 }
+
 
 .footer-text {
     font-weight: 400;
@@ -364,6 +362,7 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
+    margin-top: 16px;
 }
 /* #endregion footer */
 
