@@ -53,7 +53,9 @@ button{
     }
 
 /* #region header */
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-cont {
     display: flex;
@@ -152,7 +154,7 @@ button{
 }
 
 .button{
-    
+    min-width: 169px
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -160,7 +162,7 @@ button{
     color: #fff;
     background-color: #4d5ae5;
     border-radius: 4px;
-    border-color: #4d5ae5;
+    border: none;
     width: 169px;
     height: 56px;
     display: block;
@@ -178,8 +180,8 @@ button{
 
 /* #region  advantag*/
 .advantag {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .menu-adv {
@@ -211,10 +213,17 @@ button{
 
 /* #region  team*/
 .team{
-    background-color: #f4f4fd;
+    /*background-color: #f4f4fd;
     padding-top: 108px;
     padding-bottom: 132px;
-    margin-bottom: 108px;
+    margin-bottom: 108px;*/
+}
+
+.team .container {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
 }
 
 .team-title {
@@ -265,10 +274,12 @@ button{
 
 /* #region porfolio */
 .set {
-    margin-bottom: 120px;    
+    /*margin-bottom: 120px;    */
 }
 .set .container {
     width: 1158px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .set-title {
@@ -293,7 +304,7 @@ button{
     flex-basis: calc((100% - 48px)/3);
 }
 
-.set-list img {
+img {
     display: block;
    max-width: 100%;
    height: auto;
@@ -333,7 +344,8 @@ button{
 }
 
 .logo {
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-f {
@@ -346,7 +358,6 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 16px;
     width: 264px;
 }
 /* #endregion footer */
