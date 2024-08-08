@@ -87,6 +87,7 @@ button{
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    
 }
 
 .menu-item {}
@@ -292,7 +293,7 @@ button{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .menu-set {
