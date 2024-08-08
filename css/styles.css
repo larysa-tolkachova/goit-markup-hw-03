@@ -154,7 +154,7 @@ button{
 }
 
 .button{
-    min-width: 169px
+    min-width: 169px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -184,6 +184,9 @@ button{
     padding-bottom: 120px;
 }
 
+.adv-title {
+    margin-bottom: 8px;
+}
 .menu-adv {
     display: flex;
     gap: 24px;
@@ -213,16 +216,14 @@ button{
 
 /* #region  team*/
 .team{
-    /*background-color: #f4f4fd;
-    padding-top: 108px;
-    padding-bottom: 132px;
-    margin-bottom: 108px;*/
-}
-
-.team .container {
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-bottom: 108px;
+}
+
+.team .container {
+    padding: 32px 0;
     
 }
 
@@ -234,7 +235,8 @@ button{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+
 }
 
 .menu-team {
@@ -245,6 +247,7 @@ button{
 .team-list {
     background-color: #fff;
     width: calc((100% - 24px*3)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-dan {
@@ -274,13 +277,12 @@ button{
 
 /* #region porfolio */
 .set {
-    /*margin-bottom: 120px;    */
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .set .container {
     width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+    }
 
 .set-title {
     font-weight: 700;
